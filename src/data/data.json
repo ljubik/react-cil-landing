@@ -1,0 +1,141 @@
+{
+  "Header": {
+    "title": "ЦІЛЬ - переклади та легалізація",
+    "paragraph": "Пропонуємо переклади з будьяких мов на українську та навпаки. Апостиль в міністерстві юстиції, міністерстві освіти та міністерстві закордонних справ. Легалізація в посольствах. Виготовлення довідок про несудимість в Україні. Отримання довідок про несудимість з Польщі"
+  },
+  "About": {
+    "paragraph": "Наша компанія бере початки з заснування у 2010 році з фізичної особи підприємця. Уже в 2011 році засноване Приватне підприємство ЦІЛЬ основною сферою діяльності якого визначено проведення навчання іноземної мови та переклади. За роки існування наша компанія отримала ліцензію міністерства освіти та науки України с АГ № 505885. Підготувала кілька десятків спеціалістів у різних напрямках діяльності таких як медицина, юриспонденція, викладачі та перекладачі різноманітних мов. Наше підприємство сертифікувало понад сотню осіб які в подальшому використовують отримані знання та досвід для удосконалення та просування по кар'єрі як в Україні так і закордоном. Налагодилась співпраця з великими підприємствами Львівської області та державними органами управління такими як Львівська міська рада, Старосамбірська районна адміністрація, Жовківська адміністрація, Державна фіскальна служба, ДП Ареопорт, Центр розвитку туризму, МВС України у Львівській області, головне управління прокуратури у Львівській області, суд та інші установи. Діяльність підприємства в основному зосереджена на території Західної України. У 2013 році діяльність підприємства була розширена і можна було відзначити її на території Польщі, Німеччини, Угорщини та Росії. Закордонні замовники рекомендують нас як надійних партнерів та завжди тепло відзиваються про нашу компанію. У 2014 році приватне підприємство ЦІЛЬ було визнане одним з найрентабельніших підприємств у даній галузі по Львівській області, та було представлено до відзнаки державним Статистичним комітетом України. Було відкрито кілька філій по інших містах України таких як Луцьк, Тернопіль , Київ. У 2015 році розпочато новий напрямок діяльності підприємства як кадрового агентства по працевлашуванні за кордоном. Отримання надійних іноземних партнерів, зокрема у Китаї, Польщі, Латвії. На даний час підприємство Активно співпрацює з такими компаніями як East-Work, MAXIMA Latvija SIA.",
+    "Why": [
+      "Швидкість",
+      "Якість",
+      "Прозорість",
+      "Сучасний підхід"
+    ],
+    "Why2": [
+      "Адекватна ціна",
+      "Великі обсяги",
+      "Підтримка та консультація 24/7",
+      "Орієнтованість Клієнта"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/02.jpg",
+      "name": "Любомир Кокор",
+      "job": "Керівник",
+      "contact": "ljubik@cil.org.ua"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Ольга Кокор",
+      "job": "менеджер по роботі з клієнтами",
+      "contact": "ola@cil.org.ua"
+    },
+    {
+      "img": "img/team/01.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer",
+      "contact": ""
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager",
+      "contact": ""
+    }
+  ],
+  "Contact": {
+    "address": "79000, Львів, вул Академака Лазаренка 2 / 66",
+    "phone": "+380973342577, +380501871316",
+    "email": "info@cil.org.ua, pereclad@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
