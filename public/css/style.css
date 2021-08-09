@@ -443,6 +443,32 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
+/* Blog Section */
+#blog {
+  padding: 100px 0;
+}
+#blog h4 {
+  margin: 5px 0;
+}
+#blog .blog-img {
+  width: 240px;
+}
+#blog .thumbnail {
+  background: transparent;
+  border: 0;
+}
+#blog .thumbnail .caption {
+  padding: 10px 0 0;
+  color: #888;
+}
+#blog img {
+  width: 520px;
+  margin-top: 10px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+
 /* Team Section */
 #team {
   padding: 100px 0;
@@ -461,6 +487,7 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;

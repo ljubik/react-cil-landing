@@ -15,9 +15,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          
+
           <a className='navbar-brand page-scroll' href='#page-top'>
-          <img src="img/logo.jpg" width="110px" height="50px" alt="Логотип ЦІЛЬ"></img>
+            <img src="img/logo.jpg" width="110px" height="50px" alt="Логотип ЦІЛЬ"></img>
           </a>{' '}
 
         </div>
@@ -29,7 +29,7 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                Особливості
               </a>
             </li>
             <li>
@@ -44,12 +44,12 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Галерея зразків
+                Зразки
               </a>
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                Що про нас говорять
               </a>
             </li>
             <li>

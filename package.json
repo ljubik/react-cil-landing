@@ -1,5 +1,5 @@
 {
-  "name": "landingpage-react-template",
+  "name": "landingpage-cil",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -9,7 +9,15 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "^4.0.2",
-    "smooth-scroll": "^16.1.3"
+    "smooth-scroll": "^16.1.3",
+    "babel-polyfill": "^6.13.0",
+    "babel-runtime": "^6.11.6",
+    "react-cookie": "^0.4.8",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.0",
+    "react-scroll": "^1.4.0",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
