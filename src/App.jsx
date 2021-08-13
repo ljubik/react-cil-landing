@@ -13,6 +13,7 @@ import { Blog } from "./components/blog/Blog";
 import JsonData from "./data/data.json";
 import NavData from "./data/navdata.json";
 import SmoothScroll from "smooth-scroll";
+import MyBtn from "./components/Btn/MyBtn";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -46,7 +47,7 @@ const App = () => {
           <Contact data={landingPageData.Contact} />
         </Route>
         <Route exact path="/blog">
-          <Navigation navData={navigateData.Navigate} />
+          <Navigation data={navigateData.Navigate} />
           <Blog data={landingPageData.Blog} />
         </Route>
         <Route exact path="/carusel">

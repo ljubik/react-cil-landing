@@ -11,7 +11,7 @@ html {
 h1{
   text-align: center;
   position: relative;
-  top: 250px;
+  /* top: 250px; */
 }
 h2,
 h3,

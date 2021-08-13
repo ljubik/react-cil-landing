@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import SmoothScroll from "smooth-scroll";
 
 export const Navigation = (props) => {
-  console.log(props)
+  // console.log(props)
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -33,6 +33,7 @@ export const Navigation = (props) => {
 
           <ul className='nav navbar-nav navbar-right'>
             {
+              
               props.navData
                 ? props.navData.map((d, i) => (
                   <div key={`${d}-${i}`} className='col-md-12'>
