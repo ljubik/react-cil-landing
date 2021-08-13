@@ -13,7 +13,7 @@ import { Blog } from "./components/blog/Blog";
 import JsonData from "./data/data.json";
 import NavData from "./data/navdata.json";
 import SmoothScroll from "smooth-scroll";
-import MyBtn from "./components/Btn/MyBtn";
+
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -49,33 +49,41 @@ const App = () => {
         <Route exact path="/blog">
           <Navigation data={navigateData.Navigate} />
           <Blog data={landingPageData.Blog} />
+          <Contact data={landingPageData.Contact} />
         </Route>
         <Route exact path="/carusel">
           <Header data={landingPageData.Header} />
+          <Contact data={landingPageData.Contact} />
         </Route>
         <Route exact path="/about">
           <Navigation />
           <About data={landingPageData.About} />
+          <Contact data={landingPageData.Contact} />
         </Route>
         <Route exact path="/team">
           <Navigation />
           <Team data={landingPageData.Team} />
+          <Contact data={landingPageData.Contact} />
         </Route>
         <Route exact path="/features">
           <Navigation />
           <Features data={landingPageData.Features} />
+          <Contact data={landingPageData.Contact} />
         </Route>
         <Route exact path="/services">
           <Navigation />
           <Services data={landingPageData.Services} />
+          <Contact data={landingPageData.Contact} />
         </Route>
         <Route exact path="/testimonials">
           <Navigation />
           <Testimonials data={landingPageData.Testimonials} />
+          <Contact data={landingPageData.Contact} />
         </Route>
         <Route exact path="/gallery">
           <Navigation />
           <Gallery />
+          <Contact data={landingPageData.Contact} />
         </Route>
         <Route exact path="/contacts">
           <Navigation />
