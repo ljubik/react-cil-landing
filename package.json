@@ -1,5 +1,6 @@
 {
   "name": "landingpage-cil",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -15,6 +16,7 @@
     "react-cookie": "^0.4.8",
     "react-redux": "^4.4.5",
     "react-router": "^2.8.0",
+    "react-router-dom": "latest",
     "react-scroll": "^1.4.0",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0"

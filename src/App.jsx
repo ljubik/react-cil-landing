@@ -1,3 +1,4 @@
+import { Switch, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
@@ -10,6 +11,7 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { Blog } from "./components/blog/Blog";
 import JsonData from "./data/data.json";
+import NavData from "./data/navdata.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
@@ -24,18 +26,68 @@ const App = () => {
     setLandingPageData(JsonData);
   }, []);
 
+  const [navigateData, setNavigateData] = useState({});
+  useEffect(() => {
+    setNavigateData(NavData);
+  }, []);
+
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      {/* <Blog data={landingPageData.Blog} /> */}
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+      <Switch>
+        <Route exact path="/">
+          <Navigation />
+          <Header data={landingPageData.Header} />
+          <Features data={landingPageData.Features} />
+          <About data={landingPageData.About} />
+          <Services data={landingPageData.Services} />
+          <Gallery />
+          <Testimonials data={landingPageData.Testimonials} />
+          <Team data={landingPageData.Team} />
+          <Contact data={landingPageData.Contact} />
+        </Route>
+        <Route exact path="/blog">
+          <Navigation navData={navigateData.Navigate} />
+          <Blog data={landingPageData.Blog} />
+        </Route>
+        <Route exact path="/carusel">
+          <Header data={landingPageData.Header} />
+        </Route>
+        <Route exact path="/about">
+          <Navigation />
+          <About data={landingPageData.About} />
+        </Route>
+        <Route exact path="/team">
+          <Navigation />
+          <Team data={landingPageData.Team} />
+        </Route>
+        <Route exact path="/features">
+          <Navigation />
+          <Features data={landingPageData.Features} />
+        </Route>
+        <Route exact path="/services">
+          <Navigation />
+          <Services data={landingPageData.Services} />
+        </Route>
+        <Route exact path="/testimonials">
+          <Navigation />
+          <Testimonials data={landingPageData.Testimonials} />
+        </Route>
+        <Route exact path="/gallery">
+          <Navigation />
+          <Gallery />
+        </Route>
+        <Route exact path="/contacts">
+          <Navigation />
+          <Contact data={landingPageData.Contact} />
+        </Route>
+
+        <Route>
+          <Navigation />
+          <div><h1>Page not found !</h1></div>
+        </Route>
+      </Switch>
+
+
     </div>
   );
 };

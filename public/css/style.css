@@ -8,6 +8,11 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+h1{
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
 h2,
 h3,
 h4 {
@@ -72,7 +77,8 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 10px;
+  margin: 10px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -89,7 +95,7 @@ hr {
 }
 #menu img.navbar-brand {
  position: flex;
- top: 10px;
+ top: -10px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;

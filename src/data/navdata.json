@@ -1,0 +1,32 @@
+{
+  "Navigate": {
+    "Home": [
+      "/"
+    ],
+    "blog": [
+      "Конкурентна ціна",
+      "Великі обсяги",
+      "Підтримка та консультація 24/7",
+      "Орієнтованість Клієнта"
+    ]
+  },
+  "blog":{
+    "Home": "/",
+    "About": [
+      "menu1",
+      "menu2"
+    ],
+    "Home": "/",
+    "About": "/about",
+    "test": {
+      "menu1":"menu1team",
+      "menu2":"menu1team"
+    },
+    "Team": {
+      "menu1team":"menu2team",
+      "menu2team":"menu2team"
+    },
+    "Gallery": "/gallery",
+    "Contact": "/contacts"
+  }
+}
