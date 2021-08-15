@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import SmoothScroll from "smooth-scroll";
+import Image from './image/Image';
 
 export const Navigation = (props) => {
   // console.log(props)
@@ -21,7 +22,14 @@ export const Navigation = (props) => {
           </button>
 
           <a className='navbar-brand page-scroll' href='#page-top'>
-            <img src="img/logo.jpg" width="110px" height="50px" alt="Логотип перекладацького агенства ЦІЛЬ"></img>
+            {/* <img src="img/logo.jpg" width="110px" height="50px" alt="Логотип перекладацького агенства ЦІЛЬ"></img> */}
+            <Image 
+                      src="img/logo.jpg"
+                      class="img-responsive circle"
+                      alt="Логотип перекладацького агенства ЦІЛЬ"
+                      width={110}
+                      height={110}
+            />
           </a>
 
         </div>
