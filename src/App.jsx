@@ -37,14 +37,14 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <Navigation />
-          <Header data={landingPageData.Header} />
+          {/* <Header data={landingPageData.Header} />
           <Features data={landingPageData.Features} />
           <About data={landingPageData.About} />
-          <Services data={landingPageData.Services} />
+          <Services data={landingPageData.Services} /> */}
           <Gallery />
-          <Testimonials data={landingPageData.Testimonials} />
+          {/* <Testimonials data={landingPageData.Testimonials} />
           <Team data={landingPageData.Team} />
-          <Contact data={landingPageData.Contact} />
+          <Contact data={landingPageData.Contact} /> */}
         </Route>
         <Route exact path="/blog">
           <Navigation data={navigateData.Navigate} />
@@ -92,7 +92,7 @@ const App = () => {
 
         <Route>
           <Navigation />
-          <div><h1>Page not found !</h1></div>
+          <div><p><h1>Page not found !</h1></p></div>
         </Route>
       </Switch>
 

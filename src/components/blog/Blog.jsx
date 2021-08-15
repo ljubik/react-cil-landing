@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import MyBtn from "../Btn/MyBtn";
+
 export const Blog = (props) => {
   return (
     <div id='Blog' className='text-center'>
@@ -15,8 +18,10 @@ export const Blog = (props) => {
                 <h3>{d.Blog_name}</h3>
                 <img src={`${d.Blog_img}`} alt={`${d.Blog_alt}`} className='col-md-6'></img>
                 <div className='service-desc'>
-                
                   <p>{d.Blog_text}</p>
+                  <Link to={`${d.Blog_name}`} className='page-scroll'>
+                    <MyBtn btnName="Читати далі" className='btn btn-custom btn-lg page-scroll'/>
+                  </Link>
                 </div>
                 <p>{d.Blog_keyword}</p>
               </div>
@@ -25,9 +30,5 @@ export const Blog = (props) => {
         </div>
       </div>
     </div>
-
-
-
-
   );
 };
