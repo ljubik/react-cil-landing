@@ -80,6 +80,7 @@ document.addEventListener('keydown', onKeyClick);
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                     onClick = {handleOpenModal}
+                    data-toggle="modal"
                   >
                     <div className='hover-text'>
                       <h4>Lorem Ipsum test text</h4>
@@ -91,7 +92,8 @@ document.addEventListener('keydown', onKeyClick);
                     /> */}
                     <Image
                       src="img/portfolio/01-large.jpg"
-                      class="img-responsive"
+                      alt=""
+                      className="img-responsive"
                       width={500}
                       height={333}
                     />
@@ -110,10 +112,17 @@ document.addEventListener('keydown', onKeyClick);
                     <div className='hover-text'>
                       <h4>Adipiscing Elit</h4>
                     </div>
-                    <img
+                    {/* <img
                       src='img/portfolio/02-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
+                    /> */}
+                    <Image
+                      src="img/portfolio/02-large.jpg"
+                      alt=""
+                      className="img-responsive"
+                      width={500}
+                      height={333}
                     />
                   </a>
                 </div>

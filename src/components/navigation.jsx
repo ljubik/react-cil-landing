@@ -4,7 +4,12 @@ import SmoothScroll from "smooth-scroll";
 import Image from './image/Image';
 
 export const Navigation = (props) => {
-  // console.log(props)
+console.log(props)
+  const togleMenu = () => {
+    const mydat2 = "data-toggle='collapse'";
+   const mydat = "data-target='#bs-example-navbar-collapse-1'"
+  }
+  console.log(props)
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -22,13 +27,12 @@ export const Navigation = (props) => {
           </button>
 
           <a className='navbar-brand page-scroll' href='#page-top'>
-            {/* <img src="img/logo.jpg" width="110px" height="50px" alt="Логотип перекладацького агенства ЦІЛЬ"></img> */}
             <Image 
-                      src="img/logo.jpg"
-                      class="img-responsive circle"
-                      alt="Логотип перекладацького агенства ЦІЛЬ"
-                      width={110}
-                      height={110}
+              src="img/logo.jpg"
+              className="img-responsive circle"
+              alt="Логотип перекладацького агенства ЦІЛЬ"
+              width={110}
+              height={110}
             />
           </a>
 
@@ -49,44 +53,52 @@ export const Navigation = (props) => {
                   </div>
                 )) : <>
                   <li>
-                    <Link to="/" className='page-scroll'>Головна</Link>
-                    {/* <Link to={window.location.pathname} hash="/#" className='page-scroll'>Головна</Link> */}
+                    <Link to="/" className='page-scroll' data-toggle='collapse'
+            data-target='#bs-example-navbar-collapse-1' >Головна</Link>
                   </li>
                   <li>
-                    <Link onClick={SmoothScroll} to="/blog" className='page-scroll'>Блог</Link>
+                    <Link onClick={togleMenu} to="/blog" className='page-scroll' data-toggle='collapse'
+            data-target='#bs-example-navbar-collapse-1' >Блог</Link>
                   </li>
                   <li>
-                    <a href='#features' className='page-scroll'>
+                    <a href='#features' className='page-scroll' data-toggle='collapse'
+            data-target='#bs-example-navbar-collapse-1' >
                       Особливості
                     </a>
                   </li>
                   <li>
-                    <a href='#about' className='page-scroll'>
+                    <a href='#about' className='page-scroll' data-toggle='collapse'
+            data-target='#bs-example-navbar-collapse-1' >
                       Про нас
                     </a>
                   </li>
                   <li>
-                    <a href='#services' className='page-scroll'>
+                    <a href='#services' className='page-scroll' data-toggle='collapse'
+            data-target='#bs-example-navbar-collapse-1' >
                       Послуги
                     </a>
                   </li>
                   <li>
-                    <a href='#portfolio' className='page-scroll'>
+                    <a href='#portfolio' className='page-scroll' data-toggle='collapse'
+            data-target='#bs-example-navbar-collapse-1' >
                       Зразки
                     </a>
                   </li>
                   <li>
-                    <a href='#testimonials' className='page-scroll'>
+                    <a href='#testimonials' className='page-scroll' data-toggle='collapse'
+            data-target='#bs-example-navbar-collapse-1' >
                       Відгуки
                     </a>
                   </li>
                   <li>
-                    <a href='#team' className='page-scroll'>
+                    <a href='#team' className='page-scroll' data-toggle='collapse'
+            data-target='#bs-example-navbar-collapse-1' >
                       Команда
                     </a>
                   </li>
                   <li>
-                    <a href='#contact' className='page-scroll'>
+                    <a href='#contact' className='page-scroll' data-toggle='collapse'
+            data-target='#bs-example-navbar-collapse-1' >
                       Контакти
                     </a>
                   </li>

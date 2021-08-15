@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import MyBtn from "../Btn/MyBtn";
+import Image from '../image/Image';
 
 export const Blog = (props) => {
   return (
@@ -11,19 +12,25 @@ export const Blog = (props) => {
             Те чим хочемо поділитись з вами...
           </p>
         </div>
-        <div id='row'>
+        <div id='blog-row'>
           {props.data
             ? props.data.map((d, i) => (
               <div key={`${d.Blog_name}-${i}`} className='col-md-12'>
                 <h3>{d.Blog_name}</h3>
-                <img src={`${d.Blog_img}`} alt={`${d.Blog_alt}`} className='col-md-6'></img>
+                  <Image
+                      src={`${d.Blog_img}`}
+                      alt={`${d.Blog_alt}`} 
+                      className="img-responsive col-md-6"
+                      width={440}
+                      height={220}
+                  />
                 <div className='service-desc'>
-                  <p>{d.Blog_text}</p>
+                  <p className='text-justify'>{d.Blog_text}</p>
                   <Link to={`${d.Blog_name}`} className='page-scroll'>
-                    <MyBtn btnName="Читати далі" className='btn btn-custom btn-lg page-scroll'/>
+                    <MyBtn btnName="Читати далі" className='btn btn-custom btn-lg text-right'/>
                   </Link>
                 </div>
-                <p>{d.Blog_keyword}</p>
+                <p className='text-right'> {d.Blog_keyword}</p>
               </div>
             ))
             : 'Loading'}

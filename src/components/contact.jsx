@@ -150,11 +150,14 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020-2021 {' '}
-            <a href='http://www.cil.org.ua' rel='nofollow'>
+            &copy; 2020-2021
+            <a href='http://www.cil.org.ua' rel='follow'>
               CIL
             </a>
           </p>
+          <a href='#page-top' className='text-right'>
+              TOP
+          </a>
         </div>
       </div>
     </div>
